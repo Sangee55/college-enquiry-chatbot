@@ -1,0 +1,183 @@
+{"intents":
+[
+            {
+             "tag":"greetings",
+             "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going"],
+             "responses":["hello","hey!","what can i do for you?"]
+            },
+            {
+             "tag":"goodbye",
+             "patterns": ["see you later","goodbye","have a good day","bye"],
+             "responses":["have a nice day","goodbye","thank for using me"]
+            },
+            {
+             "tag":"age",
+             "patterns": ["how old","how old are you?","what is your age","how old are you","age?"],
+             "responses":["I get reborn after every compilation","hey!","my owners are averagely 20 years!"]
+            },
+            {
+             "tag":"name",
+             "patterns": ["what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+             "responses":["you can call me enquirybot!","i am enquirybot!","i am enquirybot your question assistant"]
+            },
+            {
+             "tag":"courses",
+             "patterns": ["courses","courses offered by college","what are the courses"],
+             "responses":["Our college offers a wide range of undergraduate and postgraduate courses, including  B.Sc, BCA, B.Com, BA, BBA, B.Voc, M.Sc, M.Com, MA, M.Phil, PGDM, Ph.D. programs"]
+            },
+            {
+             "tag":"admission process",
+             "patterns":["what is the admission process","admission process","admission","how to apply"],
+             "responses":["Register on the college's website and fill out the online application form. Candidates with valid cut-off marks are included in the merit lists. "]
+            },
+            {
+             "tag":"scholarship",
+             "patterns":["is there any scholarship program available","scholarship","scholarship available"],
+             "responses":["Yes, we offer various scholarships based on merit, financial need, and special categories like sports or minority groups"]
+            },
+            {
+             "tag":" eligibility criteria",
+             "patterns":["what are the eligibility criteria for admission","eligibility criteria","eligibility"],
+             "responses":["UG programs: Admission is based on 12th marks and community. PG programs: Admission is based on UG percentage and community. MCA program: Admission is based on the TANCET entrance examination score"]
+            },
+            {
+             "tag":"leave",
+             "patterns":["how do I apply for leave or medical leave","apply leave","leave"],
+             "responses":["To apply for leave, submit a leave application to your tutor or HOD. For medical leave, you can attach a medical certificate and medical report with your application"]
+            },
+            {
+             "tag":"hostel",
+             "patterns":["does the college provide hostel facilities","hostel","hostel facilities"],
+             "responses":["Yes, our college provides separate hostel facilities for boys and girls with amenities like Wi-Fi, mess, and sports facilities"]
+            },
+            {
+            "tag":"placement",
+            "patterns":["what placement opportunities are available","placement opportunities","placements","placement"],
+            "responses":["We have a dedicated placement cell that works closely with top companies like TCS, Infosys, and Wipro. Our placement rate is over 90%, and we offer internships and campus interviews"]
+            },
+            {
+             "tag":"contact information",
+             "patterns":["what is the contact information for further queries","contact information","contact"],
+             "responses":["You can reach us via email at psgcollege@gmail.com or call our helpline at 1234567890 for any further queries. We are available from 9 AM to 5 PM, Monday to Friday"]
+            },
+            {
+             "tag":"international students",
+             "patterns":["can international students apply","international students"],
+             "responses":["Yes, we welcome international students. You will need to meet the same academic requirements and submit proof of English language proficiency"]
+            },
+            {
+             "tag":"part time courses",
+             "patterns":["does PSG College offer any part-time or distance learning courses","part time couses","part time"],
+             "responses":["Yes, PSG College offers part-time and distance learning programs for working professionals"]
+            },
+            {
+             "tag":"facilities",
+             "patterns":["what facilities are available on campus","facilities"],
+             "responses":["Our campus is equipped with state-of-the-art facilities, including libraries, laboratories, computer centers, sports facilities, auditoriums, and hostels. We also have various clubs and societies for extracurricular activities"]
+            },
+            {
+             "tag":"internship",
+             "patterns":["how do I apply for an internship during my course","internship"],
+             "responses":["Our college encourages students to take up internships as part of their academic and professional development. The placement cell provides support in finding internships, and some departments have mandatory internships as part of their curriculum"]
+            },
+            {
+             "tag":"extracurricular activities",
+             "patterns":["what extracurricular activities are available","extracurricular activities","activities"],
+             "responses":["we have a variety of clubs and organizations for students to explore their interests, including sports, arts, cultural events, debate clubs, and community service. Annual festivals, competitions, and student leadership opportunities are also part of our vibrant campus life"]
+            },
+            {
+             "tag":"How is the academic calendar",
+             "patterns":["how is the academic calendar structured","academic calendar","calender"],
+             "responses":["The academic year is divided into two semesters, with mid-term and final exams. Classes, practicals, and assessments are scheduled as per the university guidelines. You can find the detailed academic calendar on our website"]
+            },
+            {
+             "tag":"grades",
+             "patterns":["how can I check my academic progress and grades","grades","progress"],
+             "responses":["You can check your academic progress, grades, and transcripts through the Student Portal on the college website. Log in with your student credentials and navigate to the Academic Records or Grades section to view your results"]
+            },
+            {
+             "tag":"retotalling marks",
+             "patterns":["how do I apply for revaluation or retotalling of marks","retotalling marks","retotalling"],
+             "responses":["If you're unsatisfied with your exam results, you can apply for revaluation or retotalling of marks through the exam office or student portal. Look for a form titled Revaluation/Retotaling Application and submit it within the specified deadline, along with the required fee"]
+            },
+            {
+             "tag":"hostel accommodation renewal",
+             "patterns":["how do I apply for hostel accommodation renewal","hostel accommodation renewal","renewal"],
+             "responses":["Hostel renewals are typically done at the end of each academic year. You can apply for renewal through the Hostel Office or online by filling out the hostel renewal form, submitting necessary documents, and paying the hostel fees"]
+            },
+            {
+             "tag":"activities",
+             "patterns":["how can I participate in campus clubs and activities","activities"],
+             "responses":[": You can join student clubs by visiting the Student Activities Office or checking out club fairs held at the beginning of the semester. Most clubs have open enrollment periods, and you can apply by attending meetings or filling out membership forms"]
+            },
+            {
+             "tag":"additional or elective courses",
+             "patterns":["how do I register for additional or elective courses","additional courses"],
+             "responses":["You can register for electives or additional courses through the Student Portal during the course registration window. Make sure you have completed any prerequisites and check the credit limit for your current semester before enrolling"]
+            },
+            {
+             "tag":"degree certificate",
+             "patterns":["what is the process for applying for a transcript or degree certificate","degree certificate"],
+             "responses":["You can request official transcripts or degree certificates from the Examination Office or via the online student portal. There is usually a form you need to fill out and a fee for processing the request"]
+            },
+            {
+             "tag":"campus placements",
+             "patterns":["how can I apply for campus placements","campus placements","campus"],
+             "responses":["To apply for campus placements, register with the Placement Cell. Attend pre-placement talks and training sessions. Make sure your resume is up-to-date and attend the interviews scheduled by the recruiters visiting the campus"]
+            },
+            {
+             "tag":"complaints",
+             "patterns":["How do I handle grievances or complaints regarding academics or campus life","complaints"],
+             "responses":["Most colleges have a Grievance Redressal Cell where you can file complaints about academic issues, hostel concerns, or other matters. You can submit grievances online or in person, and the cell will take appropriate actions based on your issue"]
+            },
+            {
+             "tag":"library membership",
+             "patterns":["how do I apply for a library membership or borrow books","library membership"],
+             "responses":["Library membership is usually granted automatically to enrolled students, but you can inquire at the Library Desk. To borrow books, use your student ID at the library counter or the online catalog to check availability and reserve books"]
+            },
+            {
+             "tag":"timetable",
+             "patterns":["how do I access my class timetable","timetable","class timetable"],
+             "responses":["You can access your class timetable through the Student Portal or the Academic Office. It is typically posted online at the start of the semester and is also displayed on department notice boards"]
+            },
+            {
+             "tag":"attendance",
+             "patterns":[" can I get my attendance report","howattendance report","attendance"],
+             "responses":["You can check your attendance report on the Student Portal. Some departments also send monthly attendance reports via email or make them available through your class coordinator"]
+            },
+            {
+             "tag":"id card",
+             "patterns":["where can I get my id card reissued if it’s lost","id card"],
+             "responses":["If you lose your student ID card, you can request a reissue at the Administration Office. You will likely need to pay a small fee and provide proof of identity for reissuance"]
+            },
+            {
+             "tag":"maintainance issue",
+             "patterns":["where can I report maintenance issues in the hostel","maintainance issue","hostel issue","issue at hostel","issue"],
+             "responses":["Maintenance issues in the hostel (such as plumbing or electrical problems) can be reported to the Hostel Warden or Maintenance Office. Some hostels have an online system where you can log complaints, and they will be addressed within a specific time frame"]
+            },
+            {
+             "tag":"wifi",
+             "patterns":["how do I apply for campus Wi-Fi access","wifi access","wifi","college wifi"],
+             "responses":[": To access campus Wi-Fi, you need to register your device through the IT Department or apply via the Student Portal. You will receive a unique username and password to connect to the college network"]
+            },
+            {
+             "tag":"assignments",
+             "patterns":["how do I submit assignments online","assignments"],
+             "responses":["Assignments can be submitted online through the Learning Management System (LMS) used by the college (e.g., Moodle, Blackboard, Google Classroom). Log in with your student credentials, navigate to your course, and follow the instructor’s guidelines for submitting assignments"]
+            },
+            {
+             "tag":"exam schedule",
+             "patterns":["where can I find the exam schedule","exam schedule","exam timetable"],
+             "responses":["The exam schedule is posted on the Student Portal and displayed on department notice boards. You will be notified via email or SMS when the schedule is released, usually a few weeks before the exams begin"]
+            },
+            {
+             "tag":"withdrawing course",
+             "patterns":["what is the procedure for withdrawing from a course","withdrawing course"],
+             "responses":[": To withdraw from a course, visit the Academic Office or your department head. You may need to fill out a withdrawal form and provide reasons for dropping the course. Ensure you do this before the withdrawal deadline, as late withdrawals may affect your transcript"]
+            }, 
+            {
+            "tag":"fee",
+            "patterns":["what is the fee structure","fees","fee","fee structure"],
+            "responses":["Fee structures vary by course and program. Undergraduate courses generally have different fees compared to postgraduate courses. You can check the college's official website or contact the admissions office for detailed information on tuition, hostel fees, and any other charges"]
+            }
+]}
